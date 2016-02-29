@@ -2,6 +2,7 @@ window.onload = function() {
     var expand     = document.querySelector(".expand");
     var expandSize = expand.clientHeight;
     expand.style.maxHeight = 0;
+
     document.querySelector(".fa.fa-caret-down").onclick = function() {
         if (this.className.indexOf("fa-caret-down") != -1) {
             expand.style.maxHeight = expandSize;
