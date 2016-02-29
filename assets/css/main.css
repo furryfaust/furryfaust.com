@@ -61,7 +61,7 @@ p, span {
     text-decoration: underline;
 }
 
-.title {
+.section {
     font-weight: 500;
 
     margin-top: 3px;
@@ -72,7 +72,7 @@ p, span {
     text-align: left;
 }
 
-.title + hr {
+.expand hr {
     height: 1px;
     margin-top: 3px;
 
@@ -80,13 +80,14 @@ p, span {
     border: 0;
 }
 
-.project .name {
-    text-decoration: underline;
-}
-
 .project > p {
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+
+    text-decoration: underline;
+    font-weight: 500;
+
+    width: 100%;
 }
 
 .project img {
