@@ -14,5 +14,7 @@ func main() {
         c.HTML(http.StatusOK, "index.tmpl", nil)
     })
 
+    r.StaticFS("/waveform", http.Dir("digital-waveform"))
+
     r.Run(":8080")
 }

@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/assets/css/main.css" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <script src="/assets/js/main.js"></script>
+        <script src="/assets/js/main.js" async></script>
     </head>
     <body>
         <div class="main">
@@ -21,14 +21,22 @@
                 <p class="section center">Projects</p>
                 <hr />
                 <div class="project">
-                    <p><span class="name">Text Electronics (Go)</span></p>
-                    <span class="p">Text Electronics is a text parser allowing you to visually program digital electronics circuits in text files and simulate them. You can build using and gates, or gates, flip flops, and more. I wrote this while learning Golang.</span>
+                    <div class="title"><span class="name">Text Electronics (Go)</span><span class="links"><a>TRY</a><a>SOURCE</a></span></div>
+                    <div><span class="p">Text Electronics is a text parser allowing you to visually program digital electronics circuits in text files and simulate them. You can build using and gates, or gates, flip flops, and more. I wrote this while learning Golang.</span></div>
                     <img src="/assets/images/textelectronics.png" />
+                </div>
+                <hr />
+                <div class="project">
+                    <div class="title"><span class="name">Digital Waveforms (HTML, CSS, JS)</span><span class="links"><a>TRY</a><a>SOURCE</a></span></div>
+                    <span class="p">Digital Waveforms is a web application that generates digital waveform visualizations from binary sequences. It can also compare multiple binary sequences using boolean algebra.</span>
+                    <img src="/assets/images/digitalwaveform.png" />
                 </div>
             </div>
             <div class="center">
                 <i class="fa fa-caret-down"></i>
             </div>
         </div>
+        <iframe src="/waveform">
+        </iframe>
     </body>
 </html>
