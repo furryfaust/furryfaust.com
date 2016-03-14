@@ -21,10 +21,14 @@ p, span {
     width: 30%;
 }
 
-.main {
-    margin: 0 auto;
+body {
+    margin: 5px 0px 5px 0px;
+    display: flex;
 
-    position: relative;
+    justify-content: center;
+}
+
+.main {
     width: 20em;
 }
 
@@ -115,6 +119,7 @@ p, span {
 .project > .title > .links > a {
     margin: 1px 0px 1px 3px;
 
+    text-decoration: none;
     background-color: #191817;
     color: #eee;
 
@@ -124,14 +129,25 @@ p, span {
     font-size: 0.5em;
 }
 
+.project > .title > .links > a.disabled {
+    background-color: #eee;
+    border: 1px solid #191817;
+    color: #191817;
+
+    cursor: default;
+}
+
 @media all and (max-width: 340px) {
     .main {
-        width: 100%;
+        width: 95%;
     }
 }
 
 iframe {
     display: none;
+    border: 0;
+
+    width: 100%;
 }
 
 iframe.active {
