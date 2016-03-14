@@ -1,0 +1,3 @@
+[submodule "digital-waveform"]
+	path = digital-waveform
+	url = https://github.com/furryfaust/digital-waveform
