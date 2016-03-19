@@ -10,6 +10,10 @@ p, span {
     margin-left: 1em;
 }
 
+hr {
+    margin: 5px 0px 5px 0px;
+}
+
 .center {
     text-align: center;
 }
@@ -82,7 +86,6 @@ body {
 
 .expand hr {
     height: 1px;
-    margin-top: 3px;
 
     background-color: #191817;
     border: 0;
