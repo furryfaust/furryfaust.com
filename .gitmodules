@@ -1,3 +1,6 @@
 [submodule "digital-waveform"]
 	path = digital-waveform
 	url = https://github.com/furryfaust/digital-waveform
+[submodule "listuals"]
+	path = listuals
+	url = https://github.com/furryfaust/listuals
