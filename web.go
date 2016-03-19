@@ -15,6 +15,7 @@ func main() {
     })
 
     r.StaticFS("/waveform", http.Dir("digital-waveform"))
+    r.StaticFS("/listuals", http.Dir("listuals"))
 
     r.Run(":8080")
 }
